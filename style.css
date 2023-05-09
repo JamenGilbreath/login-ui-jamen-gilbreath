@@ -1,0 +1,111 @@
+
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow-y: hidden;
+  height: 100vh;
+  min-height: 300px;
+  min-width: 300px;
+  padding: 20px;
+  background-image: url("https://w.wallhaven.cc/full/4d/wallhaven-4dvrrg.jpg");
+  background-size: 100% 100% ;
+  background-repeat: no-repeat;
+ 
+}
+      
+      .login-hud {
+        display: flex;
+        border-radius: 24px;
+      min-height: 40%;
+      min-width: 40%;
+        background-color: #504f4b98;
+        box-shadow: 0px 0px 120px 20px rgb(31, 28, 28);
+       flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+      }
+
+      .username {
+        background-color: rgba(146, 237, 240, 0.575);
+        border-radius: 12px;
+        border: 0;
+        
+        color: #eee;
+        cursor: pointer;
+        font-size: 18px;
+        height: 6vh;
+        margin-bottom: 10px;
+        text-align: center;
+        width: 17vw;
+      font-family: sans-serif;
+      
+      }
+
+      .username:hover{
+        background-color: rgba(145, 250, 253, 0.726) ;
+      }
+
+      .password {
+        background-color: rgba(146, 237, 240, 0.616);
+        border-radius: 12px;
+        border: 0;
+        box-sizing: border-box;
+        color: #eee;
+        cursor: pointer;
+        font-size: 18px;
+        height: 6vh;
+        margin-bottom: 10px;
+        text-align: center;
+        width: 17vw;
+      font-family: sans-serif;
+      }
+      
+      .password:hover{
+        background-color: rgba(145, 250, 253, 0.726) ;
+      }
+
+      .login-center {
+        display: flex;
+        justify-content: center; 
+        flex-direction: column;
+        flex-wrap: wrap;
+      
+      }
+
+      h1 {
+        font-family: sans-serif;
+        color: rgba(200, 249, 255, 0.836);
+        border-radius: 10px;
+      }
+
+   
+      .submit {
+        background-color: rgba(146, 237, 240, 0.795);
+        border-radius: 12px;
+        border: 0;
+        box-sizing: border-box;
+        color: #eee;
+        cursor: pointer;
+        font-size: auto;
+        height: 5vh;
+        margin-top: 20px;
+        text-align: center;
+        width: 100%;
+      }
+      
+      .submit:hover {
+        background-color: rgba(190, 235, 236, 0.795);
+      }
+      .submit:active {
+        background-color: rgba(50, 138, 141, 0.911);
+      }
+      
+
+      
+     
+      
+ 
